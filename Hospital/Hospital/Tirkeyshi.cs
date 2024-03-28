@@ -16,7 +16,7 @@ namespace Hospital
         {
             InitializeComponent();
         }
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Айым\OneDrive\Документы\Github\project\DB\hospitalDb.mdf;Integrated Security=True;Connect Timeout=30;");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\db\hospitalDb.mdf;Integrated Security=True;Connect Timeout=30;");
         private void DelBtn_Click(object sender, EventArgs e)
         {
 
